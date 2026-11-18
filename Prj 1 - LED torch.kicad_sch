@@ -766,6 +766,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 53.34 55.88)
+		(end 128.27 95.25)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 144 225 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "69bb6f4e-b8a7-48d8-a987-e09f0301eb1b")
+	)
+	(text "LED flashlight"
+		(exclude_from_sim no)
+		(at 53.34 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 111 165 255 1)
+			)
+			(justify left)
+		)
+		(uuid "915002ca-217e-4b60-8592-d8a7d933c79b")
+	)
+	(text "Using coin cell \nbattery holder."
+		(exclude_from_sim no)
+		(at 81.28 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 111 165 255 1)
+			)
+		)
+		(uuid "faa5a2b4-a4b0-4605-826a-e161ba5a4013")
+	)
 	(wire
 		(pts
 			(xy 124.46 87.63) (xy 124.46 69.85)
