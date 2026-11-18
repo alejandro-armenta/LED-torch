@@ -798,6 +798,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 69.85) (xy 55.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1050bb-09ca-4e3b-b229-289ef9b9b340")
+	)
+	(wire
+		(pts
 			(xy 95.25 69.85) (xy 104.14 69.85)
 		)
 		(stroke
@@ -805,16 +815,6 @@
 			(type default)
 		)
 		(uuid "9e269da7-fd92-49d6-8d5c-1fcd2749a913")
-	)
-	(wire
-		(pts
-			(xy 55.88 69.85) (xy 55.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b89870cc-23a4-49c1-b02b-48fde9a35ad1")
 	)
 	(wire
 		(pts
@@ -845,6 +845,36 @@
 			(type default)
 		)
 		(uuid "fb8117a2-fd7b-4078-a2d6-91eb45bb865b")
+	)
+	(label "bat_pos"
+		(at 86.36 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41bc80aa-5a42-4d56-9f58-32f64edf2f2c")
+	)
+	(label "LED_anode"
+		(at 81.28 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a9045ab-5183-42aa-b5fd-94b2f61bd341")
+	)
+	(label "LED_cathode"
+		(at 55.88 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cee57ade-f4c0-4e5a-8850-3cac52f44bd0")
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
