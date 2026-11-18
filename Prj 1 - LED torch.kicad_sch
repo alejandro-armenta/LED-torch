@@ -768,7 +768,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 237.49 123.19 0)
+		(at 187.96 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -779,29 +779,27 @@
 		(fields_autoplaced yes)
 		(uuid "9bd74ef4-fef3-4795-bcb0-dc2c786832a8")
 		(property "Reference" "BT1"
-			(at 241.3 120.0784 0)
+			(at 189.8015 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 241.3 122.6184 0)
+			(at 189.8015 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 121.666 90)
+			(at 189.484 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -812,7 +810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 121.666 90)
+			(at 189.484 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -823,7 +821,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 237.49 123.19 0)
+			(at 187.96 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -834,7 +832,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 237.49 123.19 0)
+			(at 187.96 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -845,7 +843,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 237.49 123.19 0)
+			(at 187.96 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -856,7 +854,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 237.49 123.19 0)
+			(at 187.96 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -883,7 +881,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 175.26 121.92 270)
+		(at 189.23 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -894,30 +892,27 @@
 		(fields_autoplaced yes)
 		(uuid "a9cddd8c-c181-49ae-b09f-0c2ddfd85b4c")
 		(property "Reference" "D1"
-			(at 177.8 119.0624 90)
+			(at 187.6425 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 177.8 121.6024 90)
+			(at 187.6425 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 121.92 0)
-			(hide yes)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm"
+			(at 189.23 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -927,7 +922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 121.92 0)
+			(at 189.23 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -938,7 +933,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 175.26 121.92 0)
+			(at 189.23 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -949,7 +944,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 121.92 0)
+			(at 189.23 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -976,7 +971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 121.92 0)
+		(at 208.28 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -987,29 +982,27 @@
 		(fields_autoplaced yes)
 		(uuid "caff7453-5ebb-47ce-b6be-889c2d0e4c11")
 		(property "Reference" "R1"
-			(at 196.85 120.6499 0)
+			(at 208.28 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 196.85 123.1899 0)
+			(at 208.28 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 192.532 121.92 90)
+			(at 208.28 118.618 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1020,7 +1013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 121.92 0)
+			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1031,7 +1024,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 121.92 0)
+			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1058,7 +1051,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPST_x2")
-		(at 219.71 124.46 0)
+		(at 228.6 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1069,7 +1062,7 @@
 		(fields_autoplaced yes)
 		(uuid "fea3b935-b6d4-4f63-ac5b-7a4294e89428")
 		(property "Reference" "SW1"
-			(at 219.71 118.11 0)
+			(at 228.6 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1079,7 +1072,7 @@
 			)
 		)
 		(property "Value" "SW_DPST_x2"
-			(at 219.71 120.65 0)
+			(at 228.6 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1089,7 +1082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 124.46 0)
+			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1100,7 +1093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 124.46 0)
+			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1111,7 +1104,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 219.71 124.46 0)
+			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
