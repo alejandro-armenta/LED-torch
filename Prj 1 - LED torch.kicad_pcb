@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "LED flashlight")
+		(date "2026-11-19")
+		(rev "0.2")
+		(company "Tech Explorations")
+		(comment 1 "Alejandro Armenta")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -1535,6 +1542,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 143.75 51)
+		(end 210.25 77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "164683a8-ea5f-4de5-9f87-adcb40876c96")
 	)
 	(embedded_fonts no)
 )
