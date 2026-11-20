@@ -1595,7 +1595,7 @@
 	)
 	(gr_line
 		(start 148.25 70.25)
-		(end 210.25 70.25)
+		(end 182.500001 70.25)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1626,7 +1626,7 @@
 		(uuid "a6a03626-dab0-4764-977d-33c0b0cbca22")
 	)
 	(gr_line
-		(start 210.25 57.5)
+		(start 182.500002 57.5)
 		(end 148.25 57.5)
 		(stroke
 			(width 0.05)
@@ -1635,9 +1635,73 @@
 		(layer "Edge.Cuts")
 		(uuid "070db05e-3052-461d-8ee7-1571d44544e0")
 	)
+	(gr_arc
+		(start 182.5 57.5)
+		(mid 193.5 51.098419)
+		(end 204.5 57.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1ad99f7-8df3-4478-aa10-9ccd0ed8193a")
+	)
 	(gr_line
-		(start 210.25 70.25)
-		(end 210.25 57.5)
+		(start 204.5 57.5)
+		(end 209.25 57.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2fdf4664-f3e2-4f69-a7e9-0f68cae6e0a2")
+	)
+	(gr_arc
+		(start 204.5 70.25)
+		(mid 193.5 76.526932)
+		(end 182.5 70.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f44f54b6-9c65-4bf1-bb2b-d4a8d88609c1")
+	)
+	(gr_line
+		(start 204.5 70.25)
+		(end 209.25 70.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "432fe803-32f2-40c9-a1f4-0a5f683ad2cd")
+	)
+	(gr_arc
+		(start 209.25 57.5)
+		(mid 209.957107 57.792893)
+		(end 210.25 58.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3b387afe-effb-4549-9006-9829838ecb1d")
+	)
+	(gr_arc
+		(start 210.25 69.25)
+		(mid 209.957107 69.957107)
+		(end 209.25 70.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c3805893-f631-465e-b713-0fff1f7fef4e")
+	)
+	(gr_line
+		(start 210.25 69.25)
+		(end 210.25 58.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1666,6 +1730,17 @@
 		(fill no)
 		(layer "User.1")
 		(uuid "0d645503-b373-4804-9a76-44942d4b8752")
+	)
+	(gr_circle
+		(center 193.5 63.75)
+		(end 203.5 71.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "b9a833f2-7f9f-4748-bc54-c92444315867")
 	)
 	(segment
 		(start 155.56 67.56)
