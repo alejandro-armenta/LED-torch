@@ -1588,7 +1588,7 @@
 		(at 193.75 62.75 180)
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
-		(property "Reference" "REF**"
+		(property "Reference" "REF1"
 			(at 0 6.35 0)
 			(layer "B.SilkS")
 			(hide yes)
